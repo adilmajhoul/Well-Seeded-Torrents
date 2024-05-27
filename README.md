@@ -1,5 +1,16 @@
 Scraping highly seeded torrents from 1337x & Piratebay & Rarbg.
 
+## try it on my deployed vercel :)
+
+| Website   | Keyword                                        | Url                        | Example                                                                                                                 |
+| --------- | ---------------------------------------------- | -------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| 1337x     | 1337x                                          | <https://1337xx.to>        | [/api/1337x/breaking%20bad](https://well-seeded-torrents.vercel.app/api/1337x/breaking%20bad)                           |
+| PirateBay | piratebay                                      | <https://thehiddenbay.com> | [/api/piratebay/breaking%20bad%20s05e14](https://well-seeded-torrents.vercel.app/api/piratebay/breaking%20bad%20s05e14) |
+| Rarbg     | rarbg                                          | <https://rargb.to>         | [/api/rarbg/game%20of%20thrones](https://well-seeded-torrents.vercel.app/api/rarbg/game%20of%20thrones)                 |
+| all       | all (It will retrieve torrent from every site) |                            | [/api/all/breaking%20bad%20s05e14](https://well-seeded-torrents.vercel.app/api/all/breaking%20bad%20s05e14)             |
+
+---
+
 the api format used is :<br>
 `/api/{keyword}/{query}/{page(optional)}`<br>
 
