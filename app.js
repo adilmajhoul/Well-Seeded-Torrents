@@ -93,7 +93,13 @@ app.use("/api/:website/:query/:page?", (req, res, next) => {
 
 app.use("/", (req, res) => {
   res.send(
-    "<h1>Welcome to 1337x, PirateBay, Rarbg, High Quality Torrents API</h1>"
+    `
+    <div>
+    <h1>Welcome to 1337x, PirateBay, Rarbg, High Quality Torrents API</h1>
+    <span>Get 'game of thrones' torrents from all sites</span>
+    <a href="/api/all/game of thrones">/api/all/game of thrones"</a>
+    </div>
+    `
   );
 });
 
