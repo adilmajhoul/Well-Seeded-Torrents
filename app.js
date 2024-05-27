@@ -93,7 +93,7 @@ app.use("/api/:website/:query/:page?", (req, res, next) => {
 
 app.use("/", (req, res) => {
   res.send(
-    "<h1>Welcome to 1337x, NyaaSi, YTS, PirateBay, Torlock, EzTvio, TorrentGalaxy, Rarbg, Zooqle, KickAss, Bitsearch, Glodls, MagnetDL, Limetorrent, TorrentFunk, TorrentProject and Ettv Central Unoffical API</h1>"
+    "<h1>Welcome to 1337x, PirateBay, Rarbg, High Quality Torrents API</h1>"
   );
 });
 
